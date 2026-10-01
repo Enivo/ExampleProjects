@@ -44,8 +44,6 @@ local function setText(dialogueBranch, player : Player, npc)
 		optionText.Visible = true
 		
 		buttons[i] = optionText
-		
-		--print(#buttons)
 	end
 	
 	return buttons
